@@ -1,0 +1,23 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bg {
+    transition: 100ms;
+}
+section {
+    margin: 0 auto;
+    width: 90%;
+    padding: 20px;
+    position: relative;
+}
+section > * {
+    position: absolute;
+    color: white;
+    text-shadow:3px 3px 3px black;
+    
+}
+
+p {
+    top: 250px;
+    left: 30px;
+}

@@ -1,0 +1,31 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+section {
+    margin: 0 auto;
+    width: 40%;
+    padding: 20px;
+    position: relative;
+}
+section > * {
+    position: absolute;
+    color: white;
+    text-shadow:3px 3px 3px black;
+}
+h1 {
+    top: 100px;
+    left: 200px;
+}
+p {
+    top: 400px;
+    left: 200px;
+}
+button {
+    border: 0;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: navy;
+    top:450px;
+    left: 250px;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js" defer></script>
+    <title>ИМТ</title>
+</head>
+<body>
+    <h1>ИМТ</h1>
+    <p id="prev">Рассчитайте ваш индекс массы тела <br> онлайн</p>
+    <div>
+        <input class="rost" type="text" placeholder="Рост см" maxlength="3" inputmode="numeric">
+        <input class="ves" type="text" placeholder="Вес кг" maxlength="3" inputmode="numeric">
+        <button class="btn">Рассчитать</button>
+    </div><hr>
+    <p class="textRes none">Ваш индекс массы тела <br><span></span></p>
+    <hr><section class="res">
+        
+    </section>
+    <section class="none q4">
+        <h2><40</h2>
+        <p>У вас Ожирение высокой степени</p>
+        <p>Срочно обратитесь к врачу</p>
+    </section>
+    <section class="none q3">
+        <h2>35-40</h2>
+        <p>У вас Ожирение средней степени</p>
+        <p>Жирный, как поезд пассажирный</p>
+    </section>
+    <section  class="none q2">
+        <h2>30-35</h2>
+        <p>У вас начальная степень ожирения</p>
+        <p>Бросайте есть на ночь</p>
+    </section>
+    <section class="none q1">
+        <h2>25-30</h2>
+        <p>У вас есть лишний вес</p>
+        <p>(Просто кость тяжёлая)</p>
+    </section>
+    <section class="none q0">
+        <h2>18.5-25</h2>
+        <p>Ваш вес в норме</p>
+        <p>Нет повода для беспокойств</p>
+    </section>
+    <section class="none q-1">
+        <h2>16-18.5</h2>
+        <p>У вас недостаток массы тела</p>
+        <p>Вам нужен откорм</p>
+    </section>
+    <section class="none q-2">
+        <h2><16</h2>
+        <p>У вас значительный дефецит массы тела</p>
+        <p>Обратитесь к врачу</p>
+    </section>
+    <div class="none q-fail">НЕВЕРНЫЕ ДАННЫЕ!</div>
+</body>
+</html>
